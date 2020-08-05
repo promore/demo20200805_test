@@ -13,6 +13,8 @@ import org.springframework.context.annotation.Bean;
 @ServletComponentScan
 public class DemoApplication {
 
+    // fist modify by huzd.
+
     @Bean
     public ServletRegistrationBean getServletRegistrationBean(){
         ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(new SecondServlet());
