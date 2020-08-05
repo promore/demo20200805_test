@@ -19,6 +19,8 @@ public class DemoApplication {
 
     // three modify by huzd.
 
+    //new branch one.
+
     @Bean
     public ServletRegistrationBean getServletRegistrationBean(){
         ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(new SecondServlet());
